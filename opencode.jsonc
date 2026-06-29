@@ -13,6 +13,8 @@
       "rm -rf *": "ask",
       "rm -r *": "ask",
       "git *": "ask",
+      "git show": "allow",
+      "git diff": "allow",
       "ssh *": "ask"
     },
     "external_directory": "deny"
